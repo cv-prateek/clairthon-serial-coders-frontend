@@ -12,6 +12,9 @@ const nextConfig = {
   images: {
     domains: ["joeschmoe.io"],
   },
+  env: {
+    NEXT_PUBLIC_URL: process.env.NEXT_PUBLIC_URL,
+  },
   async redirects() {
     return [
       {
