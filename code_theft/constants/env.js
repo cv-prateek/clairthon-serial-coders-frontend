@@ -1,1 +1,1 @@
-export const backendUrl = `https://${process.env.URL}:8090/`;
+export const backendUrl = `https://${process.env.NEXT_PUBLIC_URL}:8090/`;
